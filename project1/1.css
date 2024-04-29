@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #005f7a;
+  /* Light pink background */
+}
+
+nav {
+  background-color: #988d8d;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.img {
+  width: 300px;
+  background-color: rgb(255, 145, 0);
+}
+
+a:hover {
+  color: lightgray;
+}
+
+header {
+  background-color: #ff0000;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero,
+.about,
+.services,
+.contact {
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h2,
+.about h3,
+.services h2,
+.contact h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p,
+.about p,
+.services p,
+.contact p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero button,
+.about button,
+.services button,
+.
